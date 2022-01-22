@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('../fonts/icons.ttf?q5g7ic') format('truetype'),
+    url('../fonts/icons.woff?q5g7ic') format('woff'),
+    url('../fonts/icons.svg?q5g7ic#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-amazon:before {
+  content: "\e900";
+}
+._icon-alipay:before {
+  content: "\e901";
+}
+._icon-amazon-pay:before {
+  content: "\e902";
+}
+._icon-amilia:before {
+  content: "\e903";
+}
+._icon-android:before {
+  content: "\e904";
+}
+._icon-angellist:before {
+  content: "\e905";
+}
+._icon-angry:before {
+  content: "\e906";
+}
+._icon-angular:before {
+  content: "\e907";
+}
+._icon-apper:before {
+  content: "\e908";
+}
+._icon-apple:before {
+  content: "\e909";
+}
+._icon-apple-pay:before {
+  content: "\e90a";
+}
